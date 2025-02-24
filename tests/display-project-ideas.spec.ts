@@ -10,11 +10,11 @@ test("has correct number of project ideas", async ({ page }) => {
   await expect(page.getByRole("article")).toHaveCount(6);
   await expect(page.getByRole("heading", { level: 2 })).toHaveCount(6);
   await expect(page.getByRole("heading", { level: 2 })).toHaveText([
-    "GroupNameGenie",
-    "AI-Powered Fitness Coach",
-    "AI Art Mentor",
-    "AI Home Design Assistant",
-    "Beach Cabin Concierge",
-    "AI-Driven Travel Planner",
+    "AI Travel Planner",
+    "EcoEase",
+    "AI Art Gallery",
+    "SoccerSage",
+    "AI-Driven Adventure Quest",
+    "HarmonyHub",
   ]);
 });
